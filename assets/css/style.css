@@ -1,12 +1,14 @@
+       /* set the entire page to box border so that I wont have any problem with the boxes layout */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
  
 }
- 
+
+         /*set the background body color to white*/
 body {
-    background-color: #d9dcd6;/*set the background body color to white*/
+    background-color: #d9dcd6;
  
 }
  
@@ -38,7 +40,7 @@ body {
 .header nav ul {
     list-style-type: none;
 }
- /*use nav tag instead of div for the ul li  and display inline-block*/
+           /*use nav tag instead of div for the ul li  and display inline-block*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -48,7 +50,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
- /* below are style rules for all p tags in the document */
+            /* below are style rules for all p tags in the document */
 p {
     font-size: 16px;
 }
@@ -62,7 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
- 
+         /* images position section content */
  
 .float-left {
     float: left;
@@ -80,7 +82,7 @@ p {
     margin-left: 20px;
     position: relative;
 }
- 
+           /* aside section group */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -204,7 +206,8 @@ p {
 .footer h3 {
     font-size: 20px;
 }
- /*the aside is replaced with div and will display it's contecnts intead of having parameters*/
+
+         /*the aside is replaced with div and will display it's contecnts intead of having parameters*/
 aside {
   display: contents;
    
